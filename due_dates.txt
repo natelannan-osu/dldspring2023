@@ -9,7 +9,7 @@ Assigned: 2/06
 Due: 2/24
 
 Lab 2
-Assigned: 2/18
+Assigned: 2/20
 Due: 3/24
 
 Lab 3

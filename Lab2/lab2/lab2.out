@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Security Basics}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Rotation}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Data Encryption Standard \(DES\)}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{SubKey Generation}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Parity Bits on the Key}{subsection.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Rotations within each SubKey}{subsection.2.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Permuted Choice}{subsection.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.2}{DES Encryption or Decryption Function}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Round Block}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Feistel Block}{subsection.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{Encryption or Decryption}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.4}{Summary of Algorithm}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.5}{Power, Performance and Area \(PPA\)}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Tasks}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Testing and Stubbing Code}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Getting to know ModelSim and Debugging more in depth}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.3}{Extra Credit}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Submission}{}% 19
