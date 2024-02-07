@@ -5,7 +5,7 @@ module silly (a, b, c, y, cout);
   input logic c;
 
   output logic sum;
-  ouput logic cout;
+  output logic cout;
 
   assign sum = a^b^c;
   assign cout = a&b|a&c|b&c;
