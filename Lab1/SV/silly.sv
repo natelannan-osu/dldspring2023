@@ -1,4 +1,4 @@
-module silly (a, b, c, y, cout);
+module silly (a, b, c, sum, cout);
    
   input logic a;
   input logic b;

@@ -35,13 +35,13 @@ module tb ();
 			begin
 				for (i=0; i<4; i=i+1)
 					begin
-						@(possedge clk)
+						@(posedge clk)
 							begin
 								A = $random;
 								B = $random;
 								Cin = $random;
 							end
-						@(possedge clk)
+						@(negedge clk)
 							begin
 								vectornum = vectornum +1;
 								if(Sum != Sum_correct)
@@ -49,7 +49,10 @@ module tb ();
 										errors = errors +1;
 										$display("Error: %h %h || %h != %h", A, B, Sum, Sum_correct);
 
-     end
-
+									end
+							end
+					end
+			end
+	end
    
 endmodule
