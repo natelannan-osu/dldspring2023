@@ -1,0 +1,38 @@
+# //  ModelSim SE-64 2021.3 Jul 13 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do silly.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:48:42 on Feb 07,2024
+# vlog -reportprogress 300 silly.sv silly_tb.sv rca.sv 
+# -- Compiling module silly
+# -- Compiling module tb
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	tb
+# End time: 15:48:43 on Feb 07,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 15:48:43 on Feb 07,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.rca(fast)
+# Loading work.silly(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'sum'. The port definition is at: rca.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut File: silly_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (5) for port 'cout'. The port definition is at: rca.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut File: silly_tb.sv Line: 18
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
