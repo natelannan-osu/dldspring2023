@@ -4,6 +4,7 @@ module tb ();
    logic [3:0] A,B;
    logic Cin;
    logic [4:0] Sum;
+   logic [4:0] Cout;
    logic [4:0] Sum_correct;
    
    logic  clk;   
@@ -14,7 +15,7 @@ module tb ();
 	integer desc3;
 	integer i,j,k;
 
-	silly dut(A, B, Cin, Sum);
+	rca dut(A, B, Cin, Sum, Cout);
 
 	assign Sum_correct = A + B + Cin;
 
