@@ -1,5 +1,13 @@
-module silly (input  logic a, b, c, output logic y);
+module silly (a, b, c, y, cout);
    
-  assign y = ~b & ~c | a & ~b;
+  input logic a;
+  input logic b;
+  input logic c;
+
+  output logic sum;
+  ouput logic cout;
+
+  assign sum = a^b^c;
+  assign cout = a&b|a&c|b&c;
    
 endmodule
